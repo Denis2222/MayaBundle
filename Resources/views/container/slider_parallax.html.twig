@@ -1,13 +1,5 @@
 {% set backgroundImage = asset( ez_image_alias( content.getField( 'background' ), content.versionInfo, 'full' ).uri, absolute=false ) %}
 <div id="{{ content.id }}" class="section">
-  <div class="header-section padd-y-75">
-    <div class="title-section padd-x-25 nd-clr transit-words">
-      {{ ez_render_field(content,'title') }}
-    </div>
-    <div class="subtitle-section padd-x-25">
-      {{ ez_render_field(content,'text') }}
-    </div>
-  </div>
   <div class="serv-content">
     <div class="serv-list parallax" style="background-image: url({{ backgroundImage }});">
       <div class="serv-layer padd-y-25 bg-bk-alpha">
