@@ -1,0 +1,37 @@
+parameters:
+    pad.default.generate:
+        default:
+            default:
+                classes:
+                    - 'slider_full'
+                    - 'slider_parallax'
+                    - 'parallax_full'
+                    - 'youtube'
+                    - 'standard'
+                    - 'image'
+                limit: 10
+                template: 'PadMayaBundle::foreach.html.twig'
+                viewType: 'item'
+        container:
+            slider_full:
+                classes: ['image']
+                viewType: slide
+                template: 'PadMayaBundle::foreach.html.twig'
+                limit: 10
+            slider_parallax:
+                classes: ['image']
+                template: 'PadMayaBundle::foreach.html.twig'
+                viewType: item
+                limit: 10
+        page:
+            full:
+                classes:
+                    - 'slider_full'
+                    - 'slider_parallax'
+                    - 'parallax_full'
+                    - 'youtube'
+                    - 'standard'
+                    - 'part_list_page'
+                limit: 10
+                template: 'PadMayaBundle:foreach:page.full.html.twig'
+                viewType: 'container'
