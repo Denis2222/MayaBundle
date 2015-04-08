@@ -1,0 +1,23 @@
+<div class="grid-content marg-top-100 marg-left-25 marg-right-25 marg-bott-25">
+    <div class="port-list boxed" style="position: relative; height: 1200px;">
+			                                        
+			{% for page in components %}
+			{% set pageImage = asset( ez_image_alias( page.getField( 'image' ), page.versionInfo, 'large' ).uri, absolute=false ) %}
+		        <div class="col-1-3 padd-25 transit-bottom animated fadeInDown">
+		            <div class="port-item design" style="background-image: url('{{ pageImage }}');">
+		                <div class="port-caption transit">
+		                    <div class="port-title marg-top-75 marg-left-25 marg-right-25"><a href="{{ path( "ez_urlalias", {"locationId": page.contentInfo.mainLocationId} ) }}">
+		                    	{{ ez_render_field(page,'title')}}
+		                    </a></div>
+		                    <div class="line-center brd-gr2-clr"></div>
+		                    <div class="port-icon"><i class="icon-maximize"></i></div>
+		                </div>
+		            </div>
+		        </div>
+			{% endfor %}
+     
+        <div class="clear"></div>                                       
+    </div>       
+</div>
+
+

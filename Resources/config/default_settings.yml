@@ -23,6 +23,11 @@ parameters:
                 template: 'PadMayaBundle::foreach.html.twig'
                 viewType: item
                 limit: 10
+            part_list_page:
+                classes: ['page']
+                template: 'PadMayaBundle:foreach:page.min.html.twig'
+                viewType: item
+                limit: 10
         page:
             full:
                 classes:
@@ -32,6 +37,7 @@ parameters:
                     - 'youtube'
                     - 'standard'
                     - 'part_list_page'
+                    - 'part_contact'
                 limit: 10
                 template: 'PadMayaBundle:foreach:page.full.html.twig'
                 viewType: 'container'

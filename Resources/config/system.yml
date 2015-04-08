@@ -32,6 +32,10 @@ system:
                     template: PadMayaBundle:container:list_page.html.twig
                     match:
                         Identifier\ContentType: part_list_page
+                part_contact:
+                    template: PadMayaBundle:container:contact.html.twig
+                    match:
+                        Identifier\ContentType: part_contact
             item:
                 image:
                     template: PadMayaBundle:item:image.html.twig
