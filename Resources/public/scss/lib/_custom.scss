@@ -1,11 +1,11 @@
 /* THEME COLORS */
 	
-.wh-clr { color: #fff; }
-.wh-clr-hov:hover { color: #fff; }
-.brd-wh-clr { border-color: #fff; }
-.brd-wh-clr-hov:hover { border-color: #fff; }
-.bg-wh-clr { background-color: #fff; }
-.bg-wh-clr-hov:hover { background-color: #fff; }
+.wh-clr { color: $clearColor; }
+.wh-clr-hov:hover { color: $clearColor; }
+.brd-wh-clr { border-color: $clearColor; }
+.brd-wh-clr-hov:hover { border-color: $clearColor; }
+.bg-wh-clr { background-color: $clearColor; }
+.bg-wh-clr-hov:hover { background-color: $clearColor; }
 .bg-wh-alpha { background-color: rgba(255,255,255,0.9); }
 .bg-bk-alpha { background-color: rgba(0,0,0,0.7); }
 .gr1-clr { color: #fafafa; }
@@ -29,112 +29,112 @@
 
 /* CUSTOM COLORS */
 
-.fs-clr { color: #2574a9; }
+.fs-clr { color: $primaryColor; }
  
-.fs-clr-hov:hover { color: #2574a9; }
+.fs-clr-hov:hover { color: $primaryColor; }
  
-.bg-fs-clr { background-color: #2574a9; }
-.bg-fs-clr-hov:hover { background-color: #2574a9; }
+.bg-fs-clr { background-color: $primaryColor; }
+.bg-fs-clr-hov:hover { background-color: $primaryColor; }
  
 .bg-fs-alpha { background-color: rgba(37,116,169,0.7); }
-.brd-fs-clr { border-color: #2574a9; }
-.brd-fs-clr-hov:hover { border-color: #2574a9; }
+.brd-fs-clr { border-color: $primaryColor; }
+.brd-fs-clr-hov:hover { border-color: $primaryColor; }
 	
-.nd-clr { color: #22313F; }
+.nd-clr { color: $secondaryColor; }
  
-.nd-clr-hov:hover { color: #22313F; }
+.nd-clr-hov:hover { color: $secondaryColor; }
  
-.bg-nd-clr { background-color: #22313F; }
-.bg-nd-clr-hov:hover { background-color: #22313F; }
+.bg-nd-clr { background-color: $secondaryColor; }
+.bg-nd-clr-hov:hover { background-color: $secondaryColor; }
 .bg-nd-alpha { background-color: rgba(34,49,63,0.7); }
-.brd-nd-clr { border-color: #22313F; }
-.brd-nd-clr-hov:hover { border-color: #2574a9; }
+.brd-nd-clr { border-color: $secondaryColor; }
+.brd-nd-clr-hov:hover { border-color: $primaryColor; }
 	
 /* Preloader */
 
 #jpreBar {
-	background: #2574a9;
+	background: $primaryColor;
 }
 
 #jprePercentage {
-	border-color: #2574a9;
-	color: #2574a9;
+	border-color: $primaryColor;
+	color: $primaryColor;
 }
 
 /* Standard Menu/Submenu */
 	
 .main-menu li:hover > a  {
-	color: #22313F;
+	color: $secondaryColor;
 }
 
 .header-dark .sub-menu li > a {
-	background-color: #22313F !important;
+	background-color: $secondaryColor !important;
 }
 
 .header-dark .sub-menu li > a:hover {
-	background-color: #fff !important;
-	color: #22313F;
+	background-color: $clearColor !important;
+	color: $secondaryColor;
 }
 
 /* Sticky Menu/Submenu */
 
 .sticky .main-menu li, .sticky .main-menu li > a {
-	color: #22313F;
+	color: $secondaryColor;
 }
 
 .sticky .main-menu li:hover > a {
-	background-color: #22313F;
+	background-color: $secondaryColor;
 }
 
 .sticky .sub-menu li > a {
-	background-color: #2574a9 !important;
+	background-color: $primaryColor !important;
 }
 
 .sticky .sub-menu li:hover > a {
-	background-color: #22313F !important;
+	background-color: $secondaryColor !important;
 }
 
 /* Sticky Quick Icons */
 
 .sticky #quick-icons li {
-	color: #22313F;
+	color: $secondaryColor;
 }
 
 .sticky #quick-icons li:hover {
-	border-color: #22313F;
+	border-color: $secondaryColor;
 }
 
 /* Sticky Nav Icons */
 
 .sticky-icons li{
-	color: #22313F !important;
+	color: $secondaryColor !important;
 }
 	
 /* Filters */
 
 .port-filter li.selected {
-	background-color: #2574a9;
+	background-color: $primaryColor;
 }
 
 /* Slills */
 
 .team-skills li .bar-val {
-	background: #2574a9;
+	background: $primaryColor;
 }
 
 /* Mobile Menu */
 
 #mobile-menu {
-	background-color: #22313F;
+	background-color: $secondaryColor;
 }
 
 #mobile-menu li:hover {
-	background: #2574a9;
+	background: $primaryColor;
 }
 
 /* Video */
 
-#volume { position: absolute; left: 0; bottom: 0; background: #22313F; z-index:9999; color: #fff; padding: 10px; display: block; opacity: 0.2; font-size: 16px; cursor: pointer; }
+#volume { position: absolute; left: 0; bottom: 0; background: $secondaryColor; z-index:9999; color: $clearColor; padding: 10px; display: block; opacity: 0.2; font-size: 16px; cursor: pointer; }
 
 #volume:hover { opacity: 1; }
 
@@ -143,15 +143,15 @@
 /* Typography */
 
 blockquote { 
-	border-color: #2574a9;
-	color: #2574a9; 
+	border-color: $primaryColor;
+	color: $primaryColor; 
 }
 
-h1, h2, h3 { color: #2574a9; }
+h1, h2, h3 { color: $primaryColor; }
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
-	background: #2574a9;
-	color: #fff;
+	background: $primaryColor;
+	color: $clearColor;
 }
 
 /* TRANSITIONS */

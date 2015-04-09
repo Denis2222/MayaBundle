@@ -4373,22 +4373,22 @@ body .ui-tooltip {
 
 /* THEME COLORS */
 .wh-clr {
-  color: #fff; }
+  color: #FFF; }
 
 .wh-clr-hov:hover {
-  color: #fff; }
+  color: #FFF; }
 
 .brd-wh-clr {
-  border-color: #fff; }
+  border-color: #FFF; }
 
 .brd-wh-clr-hov:hover {
-  border-color: #fff; }
+  border-color: #FFF; }
 
 .bg-wh-clr {
-  background-color: #fff; }
+  background-color: #FFF; }
 
 .bg-wh-clr-hov:hover {
-  background-color: #fff; }
+  background-color: #FFF; }
 
 .bg-wh-alpha {
   background-color: rgba(255, 255, 255, 0.9); }
@@ -4509,7 +4509,7 @@ body .ui-tooltip {
   background-color: #22313F !important; }
 
 .header-dark .sub-menu li > a:hover {
-  background-color: #fff !important;
+  background-color: #FFF !important;
   color: #22313F; }
 
 /* Sticky Menu/Submenu */
@@ -4558,7 +4558,7 @@ body .ui-tooltip {
   bottom: 0;
   background: #22313F;
   z-index: 9999;
-  color: #fff;
+  color: #FFF;
   padding: 10px;
   display: block;
   opacity: 0.2;
@@ -4588,7 +4588,7 @@ h1, h2, h3 {
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
   background: #2574a9;
-  color: #fff; }
+  color: #FFF; }
 
 /* TRANSITIONS */
 .transit {

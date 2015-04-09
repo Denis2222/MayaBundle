@@ -1,3 +1,7 @@
+$primaryColor: #2574a9;
+$secondaryColor: #22313F;
+$clearColor: #FFF;
+
 
 @import 'lib/style';
 @import 'lib/grid';
@@ -16,6 +20,5 @@
 @import 'lib/ie';
 @import 'lib/jquery.fancybox';
 @import 'lib/jquery-ui';
-
 
 @import 'lib/custom';
