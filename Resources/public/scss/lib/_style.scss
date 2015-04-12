@@ -512,7 +512,7 @@ header.sticky:hover {
 		
 	.main-menu .sub-menu li:hover > a {
 		background-color: #fff !important;
-		color: #22313F !important;
+		color: $secondaryColor !important;
 	}
 	
 		.sticky .sub-menu {
@@ -609,7 +609,7 @@ header.sticky:hover {
 	
 	#mobile-menu .sub-menu li a:hover {
 		background-color: #fff;
-		color: #22313F;
+		color: $secondaryColor;
 	}
 	
 	#mobile-menu .sub-menu li > a {

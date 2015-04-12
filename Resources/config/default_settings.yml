@@ -3,41 +3,41 @@ parameters:
         default:
             default:
                 classes:
-                    - 'slider_full'
-                    - 'slider_parallax'
-                    - 'parallax_full'
-                    - 'youtube'
-                    - 'standard'
-                    - 'image'
+                    - 'block_full_slider'
+                    - 'block_full_parallax'
+                    - 'block_parallax_slider'
+                    - 'block_youtube'
+                    - 'block_text'
+                    - 'block_image'
                 limit: 10
                 template: 'PadMayaBundle::foreach.html.twig'
                 viewType: 'item'
         container:
-            slider_full:
+            block_full_slider:
                 classes: ['image']
                 viewType: slide
                 template: 'PadMayaBundle::foreach.html.twig'
                 limit: 10
-            slider_parallax:
+            block_parallax_slider:
                 classes: ['image']
                 template: 'PadMayaBundle::foreach.html.twig'
                 viewType: item
                 limit: 10
-            part_list_page:
+            block_list_page:
                 classes: ['page']
-                template: 'PadMayaBundle:foreach:page.min.html.twig'
+                template: 'PadMayaBundle::foreach.html.twig'
                 viewType: item
                 limit: 10
         page:
             full:
                 classes:
-                    - 'slider_full'
-                    - 'slider_parallax'
-                    - 'parallax_full'
-                    - 'youtube'
-                    - 'standard'
-                    - 'part_list_page'
-                    - 'part_contact'
+                    - 'block_full_slider'
+                    - 'block_full_parallax'
+                    - 'block_parallax_slider'
+                    - 'block_youtube'
+                    - 'block_text'
+                    - 'block_list_page'
+                    - 'block_contact'
                 limit: 10
-                template: 'PadMayaBundle:foreach:page.full.html.twig'
+                template: 'PadMayaBundle:foreach:page.html.twig'
                 viewType: 'container'

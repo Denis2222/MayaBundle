@@ -2,7 +2,7 @@ system:
     front_group:
         content:
             tree_root:
-                location_id: 77
+                location_id: 62
 
 
         location_view:
@@ -12,35 +12,39 @@ system:
                     match:
                         Identifier\ContentType: page
             container:
-                slider_full:
-                    template: PadMayaBundle:container:slider_full.html.twig
+                block_full_slider:
+                    template: PadMayaBundle:container:block_full_slider.html.twig
                     match:
-                        Identifier\ContentType: slider_full
-                slider_parallax:
-                    template: PadMayaBundle:container:slider_parallax.html.twig
+                        Identifier\ContentType: block_full_slider
+                block_parallax_slider:
+                    template: PadMayaBundle:container:block_parallax_slider.html.twig
                     match:
-                        Identifier\ContentType: slider_parallax
-                parallax_full:
-                    template: PadMayaBundle:container:parallax_full.html.twig
+                        Identifier\ContentType: block_parallax_slider 
+                block_full_parallax:
+                    template: PadMayaBundle:container:block_full_parallax.html.twig
                     match:
-                        Identifier\ContentType: parallax_full
-                standard:
-                    template: PadMayaBundle:container:standard.html.twig
+                        Identifier\ContentType: block_full_parallax
+                block_text:
+                    template: PadMayaBundle:container:block_text.html.twig
                     match:
-                        Identifier\ContentType: standard
-                part_list_page:
-                    template: PadMayaBundle:container:list_page.html.twig
+                        Identifier\ContentType: block_text
+                block_list_page:
+                    template: PadMayaBundle:container:block_list_page.html.twig
                     match:
-                        Identifier\ContentType: part_list_page
-                part_contact:
-                    template: PadMayaBundle:container:contact.html.twig
+                        Identifier\ContentType: block_list_page
+                block_contact:
+                    template: PadMayaBundle:container:block_contact.html.twig
                     match:
-                        Identifier\ContentType: part_contact
+                        Identifier\ContentType: block_contact
             item:
                 image:
                     template: PadMayaBundle:item:image.html.twig
                     match:
                         Identifier\ContentType: image
+                page:
+                    template: PadMayaBundle:item:page.html.twig
+                    match:
+                        Identifier\ContentType: page
             slide:
                 image:
                     template: PadMayaBundle:slide:image.html.twig
